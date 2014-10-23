@@ -1,0 +1,11 @@
+ros-hydro-strands-description (0.0.5-0precise) precise; urgency=high
+
+  * added install targets
+  * added changelogs
+  * Cleared up package.xml
+  * Split the chest camera links out of scitos_description, added them here instead
+  * Contributors: Marc Hanheide, Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 22 Oct 2014 23:00:00 -0000
+
+
