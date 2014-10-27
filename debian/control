@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-description
+Section: misc
+Priority: extra
+Maintainer: Nils Bore <nbore@kth.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://github.com/strands-project/strands_movebase
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-calibrate-chest
+Description: The strands_description package contains the description of the optional chest camera of the STRANDS robot.
