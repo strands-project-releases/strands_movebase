@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-movebase
+Section: misc
+Priority: extra
+Maintainer: nbore <nilsbore@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, ros-indigo-catkin, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://github.com/strands-project/strands_movebase
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-movebase
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-scitos-2d-navigation, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-strands-description, ros-indigo-tf
+Description: This package contains components for using the ROS move base together with the Scitos G5 robot. There is options for running obstacle avoidance both with only laser and with an additional depth-sensing camera mounted in front. The additional nodes in the package are for processing the incoming clouds from the camera for obstacle avoidance.
