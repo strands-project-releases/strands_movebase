@@ -2,6 +2,9 @@
 Changelog for package strands_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.8 (2014-11-12)
+------------------
+
 0.0.7 (2014-11-09)
 ------------------
 * final and tested version of loader
