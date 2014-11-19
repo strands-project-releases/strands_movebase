@@ -2,6 +2,13 @@
 Changelog for package strands_movebase
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.11 (2014-11-19)
+-------------------
+* Made the voxel map publish only for the local costmap as it might be demanding to publish the global
+* Fixed publishing of the occupied voxel map
+* Ability to include site-specific movebase parameters.
+* Contributors: Lucas Beyer, Nils Bore
+
 0.0.10 (2014-11-19)
 -------------------
 
