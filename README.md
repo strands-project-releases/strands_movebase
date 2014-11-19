@@ -1,3 +1,27 @@
+## strands_movebase (hydro) - 0.0.11-0
+
+The packages in the `strands_movebase` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --non-interactive -t hydro -r hydro strands_movebase` on `Wed, 19 Nov 2014 19:26:15 -0000`
+
+These packages were released:
+- `calibrate_chest`
+- `strands_description`
+- `strands_movebase`
+
+Version of package(s) in repository `strands_movebase`:
+- upstream repository: https://github.com/strands-project/strands_movebase.git
+- release repository: https://github.com/strands-project-releases/strands_movebase.git
+- rosdistro version: `0.0.10-0`
+- old version: `0.0.10-0`
+- new version: `0.0.11-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## strands_movebase (hydro) - 0.0.10-0
 
 The packages in the `strands_movebase` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --non-interactive -t hydro -r hydro strands_movebase` on `Wed, 19 Nov 2014 13:19:48 -0000`
