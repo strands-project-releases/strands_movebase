@@ -1,17 +1,14 @@
-strands_movebase
-================
+calibrate_chest
+===============
 
-A repository for all the STRANDS-augmented movebase, including 3D obstacle avoidance, etc. Relies on scitos_2d_navigation if it is configured to only use laser scan input for navigation, https://github.com/strands-project/scitos_2d_navigation.
+  * Do `rosrun calibrate_chest calibrate_chest` with the datacentre running if you want to store the parameters there, make sure that the largest visible plane for the chest camera is the floor. Also, notice that you have to have the chest camera running and publishing on topic `chest_xtion`.
+  * To use these parameters when you launch the bringup next time, be sure to have the datacentre running.
+  * The urdf can be updated manually by doing `rosrun calibrate_chest chest_calibration_publisher` if you don't want to restart the larger system (e.g. `strands_movebase.launch`, which includes this).
 
-# Usage
+# calibrate_chest node explanation
 
-  * `roslaunch strands_movebase movebase.launch map:=/path/to/map.yaml`
-  * To be able to use this package you have to create a map with gmapping. This can be run with `rosrun gmapping slam_gmapping`, save the map with `rosrun map_server map_saver`.
-  * Each launch file takes the argument `map` which is the path to the map saved with gmapping.
-  * Optionally, provide a `with_no_go_map:=true` and `no_go_map`, the path to a map annotated with no-go areas.
-  * If you do not want to launch it with the 3d obstacle avoidance, provide the additional argument `with_camera:=false`.
-  * Provide `camera:=<camera_namespace>` if you have an OpenNI camera publishing on another namespace than the default `chest_xtion`.
-  * Optionally provide `z_obstacle_threshold:=<value>`, where `<value>` m is the distance from the floor above which we consider points as obstacles. Making this larger than the default 0.1 improves navigation robustness but may lead to missing small obstacles.
-  * Same goes for `z_stair_threshold:=<value>`, the distance below which points are considered negative obstacles. Again, increasing improves robustness, but make sure you don't have any stairs with smaller gaps than this.
+When running `rosrun calibrate_chest calibrate_chest` the node tries to find the largest visible plane and determine the angle and height of the chest camera. It will display a window of the current point cloud, with the points belonging to the floor coloured in red. It should look something like the following, you might need a mouse to rotate:
 
-If you run with the camera option, be sure that you have a depth camera publishing on the `camera_namespace` topic. The camera also needs a valid TF transform connecting it to `base_link`. For more details on the Strands solution, see https://github.com/strands-project/strands_movebase/tree/hydro-devel/calibrate_chest and https://github.com/strands-project/strands_movebase/tree/hydro-devel/strands_description.
+![Calibration point cloud example](https://github.com/strands-project/strands_movebase/tree/hydro-devel/calibrate_chest/data/chest.png "Example of how the calibration should look.")
+
+Close the window to save the calibration.
