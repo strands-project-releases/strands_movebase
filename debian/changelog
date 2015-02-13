@@ -1,0 +1,87 @@
+ros-indigo-calibrate-chest (0.0.16-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Fri, 13 Feb 2015 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.14-0trusty) trusty; urgency=high
+
+  * Update README.md
+  * Added timeout if no point cloud received
+  * Made desired angle configurable
+  * Changed all the camera names to be parameters
+  * Polishing
+  * Added the publish option to the action server as well
+  * Made it a bit nicer
+  * Got it compiling
+  * Added dep also in package.xml
+  * Initial commit for making camera calibration an action server instead
+  * Contributors: Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 17 Dec 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.13-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Thu, 20 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.11-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.10-0trusty) trusty; urgency=high
+
+  * Added example chest calibration
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Added a readme file for calibrate_chest and made the urdf for chest camera more accurate
+  * Contributors: Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 12 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Mon, 27 Oct 2014 00:00:00 -0000
+
+ros-indigo-calibrate-chest (0.0.5-0trusty) trusty; urgency=high
+
+  * added changelogs
+  * Listed pcl as a dependency in calibrate_chest package.xml
+  * Removed everything but calibrate chest, preparing for move into strands_movebase
+  * Contributors: Marc Hanheide, Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Thu, 23 Oct 2014 00:00:00 -0000
+
+
