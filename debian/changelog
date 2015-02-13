@@ -1,0 +1,86 @@
+ros-indigo-movebase-state-service (0.0.16-0trusty) trusty; urgency=high
+
+  * Merge pull request #38 <https://github.com/strands-project/strands_movebase/issues/38> from nilsbore/state_snapshot
+    [movebase_state_service] Added navfn as dependency in movebase_state_service
+  * Forgot to add navfn as dependency in movebase_state_service
+  * Contributors: Nils Bore
+
+ -- nbore <nilsbore@gmail.com>  Fri, 13 Feb 2015 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.15-0trusty) trusty; urgency=high
+
+  * fixed version number
+  * Merge remote-tracking branch 'origin/state_snapshot' into state_snapshot
+  * Changed enum to be portable
+  * Removed pcl_ros dependency and added installed the node
+  * Update package.xml
+  * Changed the plan topics
+  * Removed old code
+  * Fixed some bugs
+  * Changed the default folder for storing the images
+  * Added the state snapshot service for saving the current costmaps with the paths overlaid
+  * Contributors: Marc Hanheide, Nils Bore, Rares Ambrus
+
+ -- nbore <nilsbore@gmail.com>  Fri, 13 Feb 2015 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.14-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Wed, 17 Dec 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.13-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Thu, 20 Nov 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.11-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Wed, 19 Nov 2014 19:25:00 -0000
+
+ros-indigo-movebase-state-service (0.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Wed, 19 Nov 2014 13:18:00 -0000
+
+ros-indigo-movebase-state-service (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Wed, 19 Nov 2014 08:08:00 -0000
+
+ros-indigo-movebase-state-service (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Wed, 12 Nov 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Mon, 27 Oct 2014 00:00:00 -0000
+
+ros-indigo-movebase-state-service (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- nbore <nilsbore@gmail.com>  Thu, 23 Oct 2014 00:00:00 -0000
+
+
