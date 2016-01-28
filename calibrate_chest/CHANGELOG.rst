@@ -2,6 +2,13 @@
 Changelog for package calibrate_chest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.22 (2016-01-28)
+-------------------
+* Fixed bug
+* Added an option to calibrate and publish at the same time
+* Added install target for calibration server
+* Contributors: Nils Bore
+
 0.0.21 (2015-04-27)
 -------------------
 
