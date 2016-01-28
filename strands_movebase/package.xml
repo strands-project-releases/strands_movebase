@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>strands_movebase</name>
-  <version>0.0.21</version>
+  <version>0.0.22</version>
   <description>
     This package contains components for using the ROS move base together
     with the Scitos G5 robot. There is options for running obstacle avoidance
@@ -36,25 +36,23 @@
   <build_depend>pcl_ros</build_depend>
   <build_depend>libpcl-all-dev</build_depend>
   <build_depend>tf</build_depend>
+  <build_depend>nodelet</build_depend>
   <run_depend>sensor_msgs</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>pcl_ros</run_depend>
   <run_depend>libpcl-all</run_depend>
   <run_depend>tf</run_depend>
-  <run_depend>scitos_2d_navigation</run_depend>
+  <run_depend>amcl</run_depend>
   <run_depend>strands_description</run_depend>
   <run_depend>dwa_local_planner</run_depend>
   <run_depend>map_server</run_depend>
   <run_depend>movebase_state_service</run_depend>
   <run_depend>strands_navfn</run_depend>
+  <run_depend>nodelet</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- You can specify that this package is a metapackage here: -->
-    <!-- <metapackage/> -->
-
-    <!-- Other tools can request additional information be placed here -->
-
+    <nodelet plugin="${prefix}/plugins/nodelet_plugins.xml" />
   </export>
 </package>
