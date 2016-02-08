@@ -1,0 +1,12 @@
+Source: ros-indigo-param-loader
+Section: misc
+Priority: extra
+Maintainer: Bruno Lacerda <b.lacerda@cs.bha.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-param-loader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-dynamic-reconfigure, ros-indigo-rospy
+Description: The param_loader package
