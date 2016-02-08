@@ -1,3 +1,30 @@
+## strands_movebase (indigo) - 0.0.23-0
+
+The packages in the `strands_movebase` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_movebase` on `Mon, 08 Feb 2016 16:20:53 -0000`
+
+These packages were released:
+- `calibrate_chest`
+- `movebase_state_service`
+- `param_loader`
+- `strands_description`
+- `strands_movebase`
+- `strands_navfn`
+
+Version of package(s) in repository `strands_movebase`:
+- upstream repository: https://github.com/strands-project/strands_movebase.git
+- release repository: https://github.com/strands-project-releases/strands_movebase.git
+- rosdistro version: `0.0.22-0`
+- old version: `0.0.22-0`
+- new version: `0.0.23-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## strands_movebase (indigo) - 0.0.22-0
 
 The packages in the `strands_movebase` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_movebase` on `Thu, 28 Jan 2016 11:11:12 -0000`
