@@ -2,6 +2,11 @@
 Changelog for package strands_movebase
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.23 (2016-02-08)
+-------------------
+* Added proper install target for subsampling nodelet
+* Contributors: Nils Bore
+
 0.0.22 (2016-01-28)
 -------------------
 * remove scitos_2d_nav dependency. add amcl dependency
