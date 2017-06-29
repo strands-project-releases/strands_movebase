@@ -1,0 +1,13 @@
+Source: ros-kinetic-movebase-state-service
+Section: misc
+Priority: extra
+Maintainer: nbore <nilsbore@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-costmap-2d, ros-kinetic-cv-bridge, ros-kinetic-geometry-msgs, ros-kinetic-nav-core, ros-kinetic-nav-msgs, ros-kinetic-navfn, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: http://github.com/strands-project/scitos_2d_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-movebase-state-service
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-costmap-2d, ros-kinetic-cv-bridge, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-core, ros-kinetic-nav-msgs, ros-kinetic-navfn, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: This service returns the local and global costmaps as image with the global and local plans overlaid.
+ It also returns the last image from the camera.
