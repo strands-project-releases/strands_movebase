@@ -1,3 +1,32 @@
+## strands_movebase (kinetic) - 0.0.23-0
+
+The packages in the `strands_movebase` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic strands_movebase` on `Thu, 29 Jun 2017 08:55:31 -0000`
+
+These packages were released:
+- `calibrate_chest`
+- `movebase_state_service`
+- `param_loader`
+- `strands_description`
+- `strands_movebase`
+- `strands_navfn`
+
+Version of package(s) in repository `strands_movebase`:
+
+- upstream repository: https://github.com/strands-project/strands_movebase.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.23-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## strands_movebase (indigo) - 0.0.23-0
 
 The packages in the `strands_movebase` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_movebase` on `Mon, 08 Feb 2016 16:20:53 -0000`
