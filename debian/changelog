@@ -1,0 +1,114 @@
+ros-kinetic-strands-navfn (0.0.23-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 08 Feb 2016 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.22-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Thu, 28 Jan 2016 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.21-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sun, 26 Apr 2015 23:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.19-0xenial) xenial; urgency=high
+
+  * prepare for release
+  * removing navfn maintainers so they dont get spammed by our errors
+  * added missing strands_navfn
+  * reading default_tolerance param before generating global plans
+  * adding  copy of navfn package, with lots of strands_* prefixes to avoid conflicts with navfn
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Thu, 09 Apr 2015 23:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.18-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sat, 28 Mar 2015 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.17-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 16 Mar 2015 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.16-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 13 Feb 2015 13:58:00 -0000
+
+ros-kinetic-strands-navfn (0.0.15-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 13 Feb 2015 11:45:00 -0000
+
+ros-kinetic-strands-navfn (0.0.14-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 17 Dec 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.13-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.12-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Thu, 20 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.11-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 19:25:00 -0000
+
+ros-kinetic-strands-navfn (0.0.10-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 13:18:00 -0000
+
+ros-kinetic-strands-navfn (0.0.9-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 08:08:00 -0000
+
+ros-kinetic-strands-navfn (0.0.8-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 12 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.7-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.6-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 27 Oct 2014 00:00:00 -0000
+
+ros-kinetic-strands-navfn (0.0.5-0xenial) xenial; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 22 Oct 2014 23:00:00 -0000
+
+
