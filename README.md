@@ -1,3 +1,32 @@
+## strands_movebase (melodic) - 0.0.23-1
+
+The packages in the `strands_movebase` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -n -t melodic -r melodic strands_movebase` on `Tue, 26 Nov 2019 15:53:37 -0000`
+
+These packages were released:
+- `calibrate_chest`
+- `movebase_state_service`
+- `param_loader`
+- `strands_description`
+- `strands_movebase`
+- `strands_navfn`
+
+Version of package(s) in repository `strands_movebase`:
+
+- upstream repository: https://github.com/strands-project/strands_movebase.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.23-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## strands_movebase (kinetic) - 0.0.23-0
 
 The packages in the `strands_movebase` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic strands_movebase` on `Thu, 29 Jun 2017 08:55:31 -0000`
