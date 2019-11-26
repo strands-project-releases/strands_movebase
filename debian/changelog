@@ -1,0 +1,126 @@
+ros-melodic-calibrate-chest (1.0.0-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Tue, 26 Nov 2019 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.23-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Mon, 08 Feb 2016 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.22-1bionic) bionic; urgency=high
+
+  * Fixed bug
+  * Added an option to calibrate and publish at the same time
+  * Added install target for calibration server
+  * Contributors: Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Thu, 28 Jan 2016 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.21-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Sun, 26 Apr 2015 23:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.18-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Sat, 28 Mar 2015 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.17-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Mon, 16 Mar 2015 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.16-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Fri, 13 Feb 2015 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.14-1bionic) bionic; urgency=high
+
+  * Update README.md
+  * Added timeout if no point cloud received
+  * Made desired angle configurable
+  * Changed all the camera names to be parameters
+  * Polishing
+  * Added the publish option to the action server as well
+  * Made it a bit nicer
+  * Got it compiling
+  * Added dep also in package.xml
+  * Initial commit for making camera calibration an action server instead
+  * Contributors: Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 17 Dec 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.13-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.12-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Thu, 20 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.11-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.10-1bionic) bionic; urgency=high
+
+  * Added example chest calibration
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Added a readme file for calibrate_chest and made the urdf for chest camera more accurate
+  * Contributors: Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.9-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.8-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Wed, 12 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.7-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.6-1bionic) bionic; urgency=high
+
+
+
+ -- Nils Bore <nbore@kth.se>  Mon, 27 Oct 2014 00:00:00 -0000
+
+ros-melodic-calibrate-chest (0.0.5-1bionic) bionic; urgency=high
+
+  * added changelogs
+  * Listed pcl as a dependency in calibrate_chest package.xml
+  * Removed everything but calibrate chest, preparing for move into strands_movebase
+  * Contributors: Marc Hanheide, Nils Bore
+
+ -- Nils Bore <nbore@kth.se>  Wed, 22 Oct 2014 23:00:00 -0000
+
+
