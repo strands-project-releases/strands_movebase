@@ -2,6 +2,11 @@
 Changelog for package param_loader
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2019-11-26)
+------------------
+* Updated email to new Oxford address
+* Contributors: Nick Hawes
+
 0.0.23 (2016-02-08)
 -------------------
 
